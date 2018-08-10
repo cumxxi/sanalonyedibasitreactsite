@@ -1,0 +1,37 @@
+.page-layout__viewport {
+  padding-top: 4rem;
+}
+
+.page-layout__nav-item--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #450310
+}
+
+.navbar {
+  flex-direction: row;
+}
+
+.navbar-brand {
+  color:#fff !important
+}
+
+.navbar-nav .nav-link{
+  color : #fff !important
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar-toggler{
+  border-color: rgba(255,255,255,1);
+  color: rgba(255,255,255,1);
+  :Activate{
+    border-color: rgba(255,255,255,1);
+    border-radius:3px
+  }
+}
