@@ -1,6 +1,12 @@
 @import 'base';
 @import '~bootstrap/scss/bootstrap.scss';
 
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext');
+
+$font-family: 'Indie Flower', cursive;
+
 // Some best-practice CSS that's useful for most apps
 // Just remove them if they're not what you want
 html {
@@ -19,3 +25,32 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
+.home-container {
+  background-image: url('images/edu.jpg');
+  height: 1000px;
+  background-size:cover
+}
+
+.icerik-container {
+  color : #fff;
+  padding-left : 20px;
+  padding-top : 20px;
+}
+
+.navbar-brand{
+  font-family : Arial, Helvetica, sans-serif;
+  transition: 1300ms;
+   &:hover{
+     color:yellow !important;
+     text-shadow: 5px 5px 4px #fff;          
+     &:hover{
+       transition: 300ms;
+     }
+   }
+}
+
+
+
+  
+

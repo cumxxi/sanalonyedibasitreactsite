@@ -7,6 +7,7 @@ import Header from '../../components/Header'
 export const PageLayout = ({ children }) => (
   <div>
     <Header />
+    {children}
   </div>
 )
 PageLayout.propTypes = {

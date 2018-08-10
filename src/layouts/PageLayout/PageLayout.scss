@@ -8,7 +8,10 @@
 }
 
 header {
-  background-color: #450310
+  background-color: #450310;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 1px 10px rgba(255,255,255,1);
 }
 
 .navbar {
@@ -16,11 +19,21 @@ header {
 }
 
 .navbar-brand {
-  color:#fff !important
+  color:#fff !important;
+  font-family: 'Indie Flower', cursive,!important;
+  font-size: 30px;
 }
 
 .navbar-nav .nav-link{
-  color : #fff !important
+  color : #fff !important;
+  font-family: 'Lato', sans-serif,!important;
+  font-size: 17px;
+  transition: 1300ms;
+  &:hover{
+    color:yellow !important;
+    text-shadow: 3px 3px 4px #fff;
+    transition: 100ms;
+  }
 }
 
 .navbar-toggler-icon {
@@ -30,8 +43,22 @@ header {
 .navbar-toggler{
   border-color: rgba(255,255,255,1);
   color: rgba(255,255,255,1);
-  :Activate{
-    border-color: rgba(255,255,255,1);
-    border-radius:3px
-  }
+}
+
+.btn-outline-light{
+  transition: 1300ms;
+}
+
+.btn-outline-light:hover{
+  color:yellow !important;
+  background-color: darkgrey !important;
+  border-color:yellow !important; 
+  box-shadow: 4px 4px 4px #fff;  
+  transition: 100ms;
+}
+
+
+
+.home-container{
+  padding-top: 70px;
 }
