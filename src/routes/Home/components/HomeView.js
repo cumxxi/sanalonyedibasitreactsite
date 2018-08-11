@@ -1,8 +1,12 @@
 import React from 'react'
+import AuthView from './AuthView'
 
 export const HomeView = () => (
   <div className='home-container'>
-    <h4 className='icerik-container'>Welcome!</h4>
+    <div className='container'>
+      <h1 className='container'>Welcome!</h1>
+      <AuthView />
+    </div>
   </div>
 )
 

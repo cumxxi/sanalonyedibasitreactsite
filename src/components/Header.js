@@ -47,7 +47,7 @@ class Header extends React.Component {
                 <a className='nav-link' href='#'>Üçüncü sayfa</a>
               </li>
             </ul>
-            <form className='form-inline my-2 my-lg-0'>
+            <form className='form-inline my-2 my-lg-0' id='arama'>
               <input className='form-control mr-sm-2' type='search' placeholder='Search' aria-label='Search' />
               <button className='btn btn-outline-light'>Search</button>
             </form>

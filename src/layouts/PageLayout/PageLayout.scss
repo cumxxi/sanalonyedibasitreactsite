@@ -12,6 +12,7 @@ header {
   position: fixed;
   width: 100%;
   box-shadow: 0px 1px 10px rgba(255,255,255,1);
+  height: 70px;
 }
 
 .navbar {
@@ -45,20 +46,26 @@ header {
   color: rgba(255,255,255,1);
 }
 
-.btn-outline-light{
+#arama .btn-outline-light{
   transition: 1300ms;
 }
 
-.btn-outline-light:hover{
+#arama .btn-outline-light:hover{
   color:yellow !important;
   background-color: darkgrey !important;
   border-color:yellow !important; 
-  box-shadow: 4px 4px 4px #fff;  
+  box-shadow: 4px 4px 20px #fff;  
   transition: 100ms;
 }
 
-
-
 .home-container{
   padding-top: 70px;
+}
+
+#arama .form-control {
+  transition: 1300ms;
+  &:hover{
+    transition: 200ms;    
+    box-shadow: 4px 4px 20px #fff;
+  }
 }

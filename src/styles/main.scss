@@ -32,10 +32,13 @@ body {
   background-size:cover
 }
 
-.icerik-container {
+.home-container .container {
   color : #fff;
   padding-left : 20px;
-  padding-top : 20px;
+  padding-top : 20px;  
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .navbar-brand{
@@ -50,7 +53,35 @@ body {
    }
 }
 
+.col-form-label {
+  color:#fff;
+}
 
+#girisForm{
+  width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom : 5px;
+}
+
+#sifremiUnuttum a{
+  color:#fff;
+  margin-top:5px;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+    color:#450310;
+  }
+}
+
+#kayitForm{
+  width: 317px;
+  margin-left:auto;
+  margin-right:auto;
+  .form-group{
+    margin-bottom: 1px;
+  }
+}
 
   
 
