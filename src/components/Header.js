@@ -44,7 +44,7 @@ class Header extends React.Component {
                 </div>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>Üçüncü sayfa</a>
+                <a className='nav-link' href='#'>Üçüncü Sayfa</a>
               </li>
             </ul>
             <form className='form-inline my-2 my-lg-0' id='arama'>

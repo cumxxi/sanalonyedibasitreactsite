@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SignUpView = (onChangeView) => (
+const SignUpView = ({onChangeView}) => (
   <form className='form-group' id='kayitForm'>
     <div className='form-group row mr-auto ml-auto'>
       <div className='form-group'>
@@ -12,8 +12,7 @@ const SignUpView = (onChangeView) => (
       </div>
     </div>
     <div className='form-inline' id='sifremiUnuttum'>
-      <a href='#' onClick={e=> {e.preventDefault(); onChangeView(1)}}>
-        <cite>Zaten Üyeyim</cite></a>
+      <a href='#' onClick={e => { e.preventDefault(); onChangeView(1) }} ><cite>Zaten Üyeyim</cite></a>
     </div>
   </form>
 )

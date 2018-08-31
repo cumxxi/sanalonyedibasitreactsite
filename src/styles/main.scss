@@ -64,7 +64,7 @@ body {
   margin-bottom : 5px;
 }
 
-#sifremiUnuttum a{
+#sifremiUnuttum a, #PasswordResetView a, #sifreDegistir a{
   color:#fff;
   margin-top:5px;
   text-decoration: none;
@@ -74,7 +74,7 @@ body {
   }
 }
 
-#kayitForm{
+#kayitForm, #sifreReset,{
   width: 317px;
   margin-left:auto;
   margin-right:auto;
@@ -82,6 +82,11 @@ body {
     margin-bottom: 1px;
   }
 }
+
+#sifreReset {
+  width : 338px ;
+}
+
 
   
 
